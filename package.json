@@ -1,0 +1,12 @@
+{
+  "name": "payhere-store",
+  "version": "1.0.0",
+  "description": "MD WEBX product page with PayHere checkout",
+  "private": true,
+  "scripts": {
+    "dev": "vercel dev"
+  },
+  "devDependencies": {
+    "vercel": "^33.0.0"
+  }
+}

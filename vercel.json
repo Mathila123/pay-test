@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "public": true,
+  "rewrites": [
+    { "source": "/api/(.*)", "destination": "/api/$1" }
+  ],
+  "routes": [
+    {
+      "src": "/(.*\\.html|.*\\.css|.*\\.js|.*\\.png|.*\\.ico|.*\\.svg)",
+      "dest": "/public/$1"
+    },
+    {
+      "src": "/",
+      "dest": "/public/index.html"
+    }
+  ]
+}

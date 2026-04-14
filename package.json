@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "MD WEBX product page with PayHere checkout",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "vercel dev"
   },
